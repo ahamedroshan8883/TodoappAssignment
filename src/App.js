@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Taskform from './components/TaskForm/Taskform';
+import SignupForm from './components/SignupForm/SignupForm';
+import SigninForm from './components/SigninForm/SigninForm';
+import TodosPage from './components/TodosPage/TodosPage';
+import SignOut from './components/SignOut/SignOut';
+import { useState } from 'react';
 
 function App() {
+  const initialState = {
+    id: "",
+    task:"",
+    completed:false,
+    important:false,
+    duedate:"",
+    user:""
+  }
+  let[TodosInputForEdit,setTodosInputForEdit] = useState(initialState);
+  let[TodoForEdit,setTodoForEdit] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<SigninForm></SigninForm>}></Route>
+        <Route path='/SignUp' element={<SignupForm></SignupForm>}></Route>
+        <Route path='/SignIn' element={<SigninForm></SigninForm>}></Route>
+        <Route path='/Todos' element={<TodosPage setTodosInputForEdit={setTodosInputForEdit} setTodoForEdit={setTodoForEdit}></TodosPage>}></Route>
+        <Route path="/CreateTask" element={<Taskform TodosInputForEdit={TodosInputForEdit} TodoForEdit={TodoForEdit} 
+        setTodosInputForEdit={setTodosInputForEdit} setTodoForEdit={setTodoForEdit}></Taskform>}></Route>
+        <Route path="/SignOut" element={<SignOut></SignOut>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TodoappAssignment/static/css/main.bbd1c4e6.css",
-    "main.js": "/TodoappAssignment/static/js/main.d340a79b.js",
-    "static/js/453.d8f9fb33.chunk.js": "/TodoappAssignment/static/js/453.d8f9fb33.chunk.js",
-    "index.html": "/TodoappAssignment/index.html",
-    "main.bbd1c4e6.css.map": "/TodoappAssignment/static/css/main.bbd1c4e6.css.map",
-    "main.d340a79b.js.map": "/TodoappAssignment/static/js/main.d340a79b.js.map",
-    "453.d8f9fb33.chunk.js.map": "/TodoappAssignment/static/js/453.d8f9fb33.chunk.js.map"
+    "main.css": "/TodoappAssignment/SignIn/static/css/main.bbd1c4e6.css",
+    "main.js": "/TodoappAssignment/SignIn/static/js/main.42a36527.js",
+    "static/js/453.d8f9fb33.chunk.js": "/TodoappAssignment/SignIn/static/js/453.d8f9fb33.chunk.js",
+    "index.html": "/TodoappAssignment/SignIn/index.html",
+    "main.bbd1c4e6.css.map": "/TodoappAssignment/SignIn/static/css/main.bbd1c4e6.css.map",
+    "main.42a36527.js.map": "/TodoappAssignment/SignIn/static/js/main.42a36527.js.map",
+    "453.d8f9fb33.chunk.js.map": "/TodoappAssignment/SignIn/static/js/453.d8f9fb33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd1c4e6.css",
-    "static/js/main.d340a79b.js"
+    "static/js/main.42a36527.js"
   ]
 }

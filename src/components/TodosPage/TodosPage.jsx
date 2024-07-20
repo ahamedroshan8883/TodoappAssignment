@@ -73,7 +73,7 @@ export default function TodosPage({setTodosInputForEdit,setTodoForEdit}){
                         <Link to='/CreateTask' style={{padding:'10px'}}><Button color="success" variant="contained"> + ADD ASK</Button></Link>
                 </Box>
                 <Box sx={{padding:'10px'}}>
-                    <Typography display={"flex"}
+                    <Typography display={"flex"} flexWrap={"wrap"}
                       justifyContent={"space-evenly"}
                     >{categories.map((index,cate)=><button style={{
                       backgroundColor:"#7AB4C0",padding:'5px',borderRadius:'20px',

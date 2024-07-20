@@ -21,8 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path='/' element={<SigninForm></SigninForm>}></Route>
-      <Route path='/Todoapp/' element={<SigninForm></SigninForm>}></Route>
+      <Route path='/TodoappAssignment/' element={<SigninForm></SigninForm>}></Route>
         <Route path='/SignUp' element={<SignupForm></SignupForm>}></Route>
         <Route path='/SignIn' element={<SigninForm></SigninForm>}></Route>
         <Route path='/Todos' element={<TodosPage setTodosInputForEdit={setTodosInputForEdit} setTodoForEdit={setTodoForEdit}></TodosPage>}></Route>

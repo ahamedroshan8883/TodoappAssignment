@@ -7,7 +7,7 @@ export default function SignOut(){
         localStorage.removeItem('email');
         localStorage.removeItem('fullname');
         localStorage.removeItem('gender');
-        navigate('/');
+        navigate('/TodoappAssignment/');
     }
     useEffect(()=>{
         signOut();

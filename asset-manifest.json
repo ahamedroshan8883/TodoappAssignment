@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TodoappAssignment/static/css/main.bbd1c4e6.css",
-    "main.js": "/TodoappAssignment/static/js/main.a78206e6.js",
+    "main.js": "/TodoappAssignment/static/js/main.c8d57dfa.js",
     "static/js/453.d8f9fb33.chunk.js": "/TodoappAssignment/static/js/453.d8f9fb33.chunk.js",
     "index.html": "/TodoappAssignment/index.html",
     "main.bbd1c4e6.css.map": "/TodoappAssignment/static/css/main.bbd1c4e6.css.map",
-    "main.a78206e6.js.map": "/TodoappAssignment/static/js/main.a78206e6.js.map",
+    "main.c8d57dfa.js.map": "/TodoappAssignment/static/js/main.c8d57dfa.js.map",
     "453.d8f9fb33.chunk.js.map": "/TodoappAssignment/static/js/453.d8f9fb33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd1c4e6.css",
-    "static/js/main.a78206e6.js"
+    "static/js/main.c8d57dfa.js"
   ]
 }

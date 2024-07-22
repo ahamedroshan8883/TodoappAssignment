@@ -114,7 +114,7 @@ export default function TodosPage({setTodosInputForEdit,setTodoForEdit}){
                       </Typography>
                   </Box>)}
                 </Box>:
-                <Box sx={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr',gap:'10px'}}>
+                <Box sx={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(200px, 1fr))',gap:'10px'}}>
                   {filterdTodos.map(todo=>
                   <Box key={todo.id} sx={{width:'100%',boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px',
                     padding:'10px',display:"flex",flexDirection:'row',alignItems:'center',justifyContent:'space-between'}}>
